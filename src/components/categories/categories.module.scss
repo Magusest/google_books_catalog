@@ -1,0 +1,25 @@
+.categories {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    ul {
+        background-color: #ffffff;
+        width: 150px;
+        color:#000000;
+    
+        @media (min-width: 768px) {
+            width: 200px; 
+        }
+    } 
+    
+    .categoriesOpen {
+        position: absolute;
+        top: 0;
+        right: 57px;
+    }
+}
+
+
